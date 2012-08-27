@@ -64,7 +64,30 @@ plust notes about default settings, etc):
 		
 		self.activePopup = popupList;
 	}
-	
+    
+            
+    // Delegate methods:
+    
+    - (void) popupListcomponent:(PopupListComponent *)sender choseItemWithId:(int)itemId
+    {
+        NSLog(@"User chose item with id = %d", itemId);
+        
+        // If you stored a "userInfo" object in the popup, access it as:
+        id anyObjectToPassToCallback = sender.userInfo;
+        NSLog(@"popup userInfo = %@", anyObjectToPassToCallback);
+        
+        // Free component object, since our action method recreates it each time:
+        self.activePopup = nil;  
+    }
+
+
+    - (void) popupListcompoentDidCancel:(PopupListComponent *)sender
+    {
+        NSLog(@"Popup cancelled");
+        
+        // Free component object, since our action method recreates it each time:
+        self.activePopup = nil;  
+    }
 
 
 
