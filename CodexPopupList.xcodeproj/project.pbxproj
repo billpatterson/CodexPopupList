@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9D8CCFC15EC1325005C8098 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D8CCFB15EC1325005C8098 /* UIKit.framework */; };
+		A9D8CCFE15EC1325005C8098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D8CCFD15EC1325005C8098 /* Foundation.framework */; };
+		A9D8CD0015EC1325005C8098 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D8CCFF15EC1325005C8098 /* CoreGraphics.framework */; };
+		A9D8CD0615EC1325005C8098 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD0415EC1325005C8098 /* InfoPlist.strings */; };
+		A9D8CD0815EC1325005C8098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8CD0715EC1325005C8098 /* main.m */; };
+		A9D8CD0C15EC1325005C8098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8CD0B15EC1325005C8098 /* AppDelegate.m */; };
+		A9D8CD0F15EC1325005C8098 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD0D15EC1325005C8098 /* MainStoryboard_iPhone.storyboard */; };
+		A9D8CD1215EC1325005C8098 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD1015EC1325005C8098 /* MainStoryboard_iPad.storyboard */; };
+		A9D8CD1515EC1325005C8098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8CD1415EC1325005C8098 /* ViewController.m */; };
+		A9D8CD3615EC1376005C8098 /* color_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD1C15EC1376005C8098 /* color_blue.png */; };
+		A9D8CD3715EC1376005C8098 /* color_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD1D15EC1376005C8098 /* color_blue@2x.png */; };
+		A9D8CD3815EC1376005C8098 /* color_green.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD1E15EC1376005C8098 /* color_green.png */; };
+		A9D8CD3915EC1376005C8098 /* color_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD1F15EC1376005C8098 /* color_green@2x.png */; };
+		A9D8CD3A15EC1376005C8098 /* color_red.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD2015EC1376005C8098 /* color_red.png */; };
+		A9D8CD3B15EC1376005C8098 /* color_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD2115EC1376005C8098 /* color_red@2x.png */; };
+		A9D8CD3C15EC1376005C8098 /* PopupListComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8CD2415EC1376005C8098 /* PopupListComponent.m */; };
+		A9D8CD3D15EC1376005C8098 /* popoverArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD2715EC1376005C8098 /* popoverArrowDown.png */; };
+		A9D8CD3E15EC1376005C8098 /* popoverArrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD2815EC1376005C8098 /* popoverArrowDown@2x.png */; };
+		A9D8CD3F15EC1376005C8098 /* popoverArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD2915EC1376005C8098 /* popoverArrowLeft.png */; };
+		A9D8CD4015EC1376005C8098 /* popoverArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD2A15EC1376005C8098 /* popoverArrowLeft@2x.png */; };
+		A9D8CD4115EC1376005C8098 /* popoverArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD2B15EC1376005C8098 /* popoverArrowRight.png */; };
+		A9D8CD4215EC1376005C8098 /* popoverArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD2C15EC1376005C8098 /* popoverArrowRight@2x.png */; };
+		A9D8CD4315EC1376005C8098 /* popoverArrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD2D15EC1376005C8098 /* popoverArrowUp.png */; };
+		A9D8CD4415EC1376005C8098 /* popoverArrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD2E15EC1376005C8098 /* popoverArrowUp@2x.png */; };
+		A9D8CD4515EC1376005C8098 /* popoverBg.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD2F15EC1376005C8098 /* popoverBg.png */; };
+		A9D8CD4615EC1376005C8098 /* popoverBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD3015EC1376005C8098 /* popoverBg@2x.png */; };
+		A9D8CD4715EC1376005C8098 /* WEPopoverContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8CD3215EC1376005C8098 /* WEPopoverContainerView.m */; };
+		A9D8CD4815EC1376005C8098 /* WEPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8CD3415EC1376005C8098 /* WEPopoverController.m */; };
+		A9D8CD4E15EC1593005C8098 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9D8CD4D15EC1593005C8098 /* readme.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9D8CCF715EC1325005C8098 /* CodexPopupList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodexPopupList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D8CCFB15EC1325005C8098 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9D8CCFD15EC1325005C8098 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9D8CCFF15EC1325005C8098 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9D8CD0315EC1325005C8098 /* CodexPopupList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodexPopupList-Info.plist"; sourceTree = "<group>"; };
+		A9D8CD0515EC1325005C8098 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9D8CD0715EC1325005C8098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9D8CD0915EC1325005C8098 /* CodexPopupList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodexPopupList-Prefix.pch"; sourceTree = "<group>"; };
+		A9D8CD0A15EC1325005C8098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9D8CD0B15EC1325005C8098 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9D8CD0E15EC1325005C8098 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A9D8CD1115EC1325005C8098 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A9D8CD1315EC1325005C8098 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9D8CD1415EC1325005C8098 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9D8CD1C15EC1376005C8098 /* color_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_blue.png; sourceTree = "<group>"; };
+		A9D8CD1D15EC1376005C8098 /* color_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color_blue@2x.png"; sourceTree = "<group>"; };
+		A9D8CD1E15EC1376005C8098 /* color_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_green.png; sourceTree = "<group>"; };
+		A9D8CD1F15EC1376005C8098 /* color_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color_green@2x.png"; sourceTree = "<group>"; };
+		A9D8CD2015EC1376005C8098 /* color_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_red.png; sourceTree = "<group>"; };
+		A9D8CD2115EC1376005C8098 /* color_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color_red@2x.png"; sourceTree = "<group>"; };
+		A9D8CD2315EC1376005C8098 /* PopupListComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupListComponent.h; sourceTree = "<group>"; };
+		A9D8CD2415EC1376005C8098 /* PopupListComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupListComponent.m; sourceTree = "<group>"; };
+		A9D8CD2715EC1376005C8098 /* popoverArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDown.png; sourceTree = "<group>"; };
+		A9D8CD2815EC1376005C8098 /* popoverArrowDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowDown@2x.png"; sourceTree = "<group>"; };
+		A9D8CD2915EC1376005C8098 /* popoverArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeft.png; sourceTree = "<group>"; };
+		A9D8CD2A15EC1376005C8098 /* popoverArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowLeft@2x.png"; sourceTree = "<group>"; };
+		A9D8CD2B15EC1376005C8098 /* popoverArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRight.png; sourceTree = "<group>"; };
+		A9D8CD2C15EC1376005C8098 /* popoverArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowRight@2x.png"; sourceTree = "<group>"; };
+		A9D8CD2D15EC1376005C8098 /* popoverArrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUp.png; sourceTree = "<group>"; };
+		A9D8CD2E15EC1376005C8098 /* popoverArrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowUp@2x.png"; sourceTree = "<group>"; };
+		A9D8CD2F15EC1376005C8098 /* popoverBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBg.png; sourceTree = "<group>"; };
+		A9D8CD3015EC1376005C8098 /* popoverBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverBg@2x.png"; sourceTree = "<group>"; };
+		A9D8CD3115EC1376005C8098 /* WEPopoverContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverContainerView.h; sourceTree = "<group>"; };
+		A9D8CD3215EC1376005C8098 /* WEPopoverContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverContainerView.m; sourceTree = "<group>"; };
+		A9D8CD3315EC1376005C8098 /* WEPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverController.h; sourceTree = "<group>"; };
+		A9D8CD3415EC1376005C8098 /* WEPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverController.m; sourceTree = "<group>"; };
+		A9D8CD3515EC1376005C8098 /* WEPopoverParentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverParentView.h; sourceTree = "<group>"; };
+		A9D8CD4D15EC1593005C8098 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D8CCF415EC1325005C8098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D8CCFC15EC1325005C8098 /* UIKit.framework in Frameworks */,
+				A9D8CCFE15EC1325005C8098 /* Foundation.framework in Frameworks */,
+				A9D8CD0015EC1325005C8098 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9D8CCEC15EC1325005C8098 = {
+			isa = PBXGroup;
+			children = (
+				A9D8CD0115EC1325005C8098 /* CodexPopupList */,
+				A9D8CCFA15EC1325005C8098 /* Frameworks */,
+				A9D8CCF815EC1325005C8098 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D8CCF815EC1325005C8098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8CCF715EC1325005C8098 /* CodexPopupList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D8CCFA15EC1325005C8098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8CCFB15EC1325005C8098 /* UIKit.framework */,
+				A9D8CCFD15EC1325005C8098 /* Foundation.framework */,
+				A9D8CCFF15EC1325005C8098 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9D8CD0115EC1325005C8098 /* CodexPopupList */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8CD1B15EC1376005C8098 /* images */,
+				A9D8CD2215EC1376005C8098 /* PopupListComponent */,
+				A9D8CD0A15EC1325005C8098 /* AppDelegate.h */,
+				A9D8CD0B15EC1325005C8098 /* AppDelegate.m */,
+				A9D8CD0D15EC1325005C8098 /* MainStoryboard_iPhone.storyboard */,
+				A9D8CD1015EC1325005C8098 /* MainStoryboard_iPad.storyboard */,
+				A9D8CD1315EC1325005C8098 /* ViewController.h */,
+				A9D8CD1415EC1325005C8098 /* ViewController.m */,
+				A9D8CD0215EC1325005C8098 /* Supporting Files */,
+			);
+			path = CodexPopupList;
+			sourceTree = "<group>";
+		};
+		A9D8CD0215EC1325005C8098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8CD0315EC1325005C8098 /* CodexPopupList-Info.plist */,
+				A9D8CD0415EC1325005C8098 /* InfoPlist.strings */,
+				A9D8CD0715EC1325005C8098 /* main.m */,
+				A9D8CD0915EC1325005C8098 /* CodexPopupList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9D8CD1B15EC1376005C8098 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8CD1C15EC1376005C8098 /* color_blue.png */,
+				A9D8CD1D15EC1376005C8098 /* color_blue@2x.png */,
+				A9D8CD1E15EC1376005C8098 /* color_green.png */,
+				A9D8CD1F15EC1376005C8098 /* color_green@2x.png */,
+				A9D8CD2015EC1376005C8098 /* color_red.png */,
+				A9D8CD2115EC1376005C8098 /* color_red@2x.png */,
+				A9D8CD4D15EC1593005C8098 /* readme.txt */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A9D8CD2215EC1376005C8098 /* PopupListComponent */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8CD2315EC1376005C8098 /* PopupListComponent.h */,
+				A9D8CD2415EC1376005C8098 /* PopupListComponent.m */,
+				A9D8CD2515EC1376005C8098 /* WEPopoverLib */,
+			);
+			path = PopupListComponent;
+			sourceTree = "<group>";
+		};
+		A9D8CD2515EC1376005C8098 /* WEPopoverLib */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8CD2615EC1376005C8098 /* Resources */,
+				A9D8CD3115EC1376005C8098 /* WEPopoverContainerView.h */,
+				A9D8CD3215EC1376005C8098 /* WEPopoverContainerView.m */,
+				A9D8CD3315EC1376005C8098 /* WEPopoverController.h */,
+				A9D8CD3415EC1376005C8098 /* WEPopoverController.m */,
+				A9D8CD3515EC1376005C8098 /* WEPopoverParentView.h */,
+			);
+			path = WEPopoverLib;
+			sourceTree = "<group>";
+		};
+		A9D8CD2615EC1376005C8098 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8CD2715EC1376005C8098 /* popoverArrowDown.png */,
+				A9D8CD2815EC1376005C8098 /* popoverArrowDown@2x.png */,
+				A9D8CD2915EC1376005C8098 /* popoverArrowLeft.png */,
+				A9D8CD2A15EC1376005C8098 /* popoverArrowLeft@2x.png */,
+				A9D8CD2B15EC1376005C8098 /* popoverArrowRight.png */,
+				A9D8CD2C15EC1376005C8098 /* popoverArrowRight@2x.png */,
+				A9D8CD2D15EC1376005C8098 /* popoverArrowUp.png */,
+				A9D8CD2E15EC1376005C8098 /* popoverArrowUp@2x.png */,
+				A9D8CD2F15EC1376005C8098 /* popoverBg.png */,
+				A9D8CD3015EC1376005C8098 /* popoverBg@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9D8CCF615EC1325005C8098 /* CodexPopupList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D8CD1815EC1325005C8098 /* Build configuration list for PBXNativeTarget "CodexPopupList" */;
+			buildPhases = (
+				A9D8CCF315EC1325005C8098 /* Sources */,
+				A9D8CCF415EC1325005C8098 /* Frameworks */,
+				A9D8CCF515EC1325005C8098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodexPopupList;
+			productName = CodexPopupList;
+			productReference = A9D8CCF715EC1325005C8098 /* CodexPopupList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D8CCEE15EC1325005C8098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A9D8CCF115EC1325005C8098 /* Build configuration list for PBXProject "CodexPopupList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9D8CCEC15EC1325005C8098;
+			productRefGroup = A9D8CCF815EC1325005C8098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D8CCF615EC1325005C8098 /* CodexPopupList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9D8CCF515EC1325005C8098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D8CD0615EC1325005C8098 /* InfoPlist.strings in Resources */,
+				A9D8CD0F15EC1325005C8098 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A9D8CD1215EC1325005C8098 /* MainStoryboard_iPad.storyboard in Resources */,
+				A9D8CD3615EC1376005C8098 /* color_blue.png in Resources */,
+				A9D8CD3715EC1376005C8098 /* color_blue@2x.png in Resources */,
+				A9D8CD3815EC1376005C8098 /* color_green.png in Resources */,
+				A9D8CD3915EC1376005C8098 /* color_green@2x.png in Resources */,
+				A9D8CD3A15EC1376005C8098 /* color_red.png in Resources */,
+				A9D8CD3B15EC1376005C8098 /* color_red@2x.png in Resources */,
+				A9D8CD3D15EC1376005C8098 /* popoverArrowDown.png in Resources */,
+				A9D8CD3E15EC1376005C8098 /* popoverArrowDown@2x.png in Resources */,
+				A9D8CD3F15EC1376005C8098 /* popoverArrowLeft.png in Resources */,
+				A9D8CD4015EC1376005C8098 /* popoverArrowLeft@2x.png in Resources */,
+				A9D8CD4115EC1376005C8098 /* popoverArrowRight.png in Resources */,
+				A9D8CD4215EC1376005C8098 /* popoverArrowRight@2x.png in Resources */,
+				A9D8CD4315EC1376005C8098 /* popoverArrowUp.png in Resources */,
+				A9D8CD4415EC1376005C8098 /* popoverArrowUp@2x.png in Resources */,
+				A9D8CD4515EC1376005C8098 /* popoverBg.png in Resources */,
+				A9D8CD4615EC1376005C8098 /* popoverBg@2x.png in Resources */,
+				A9D8CD4E15EC1593005C8098 /* readme.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9D8CCF315EC1325005C8098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D8CD0815EC1325005C8098 /* main.m in Sources */,
+				A9D8CD0C15EC1325005C8098 /* AppDelegate.m in Sources */,
+				A9D8CD1515EC1325005C8098 /* ViewController.m in Sources */,
+				A9D8CD3C15EC1376005C8098 /* PopupListComponent.m in Sources */,
+				A9D8CD4715EC1376005C8098 /* WEPopoverContainerView.m in Sources */,
+				A9D8CD4815EC1376005C8098 /* WEPopoverController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9D8CD0415EC1325005C8098 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D8CD0515EC1325005C8098 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9D8CD0D15EC1325005C8098 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D8CD0E15EC1325005C8098 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A9D8CD1015EC1325005C8098 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D8CD1115EC1325005C8098 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9D8CD1615EC1325005C8098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9D8CD1715EC1325005C8098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9D8CD1915EC1325005C8098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodexPopupList/CodexPopupList-Prefix.pch";
+				INFOPLIST_FILE = "CodexPopupList/CodexPopupList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9D8CD1A15EC1325005C8098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodexPopupList/CodexPopupList-Prefix.pch";
+				INFOPLIST_FILE = "CodexPopupList/CodexPopupList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9D8CCF115EC1325005C8098 /* Build configuration list for PBXProject "CodexPopupList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D8CD1615EC1325005C8098 /* Debug */,
+				A9D8CD1715EC1325005C8098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D8CD1815EC1325005C8098 /* Build configuration list for PBXNativeTarget "CodexPopupList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D8CD1915EC1325005C8098 /* Debug */,
+				A9D8CD1A15EC1325005C8098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D8CCEE15EC1325005C8098 /* Project object */;
+}
